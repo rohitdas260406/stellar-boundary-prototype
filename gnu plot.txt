@@ -1,0 +1,13 @@
+cd 'Saved_FILE_LOCATION_HERE'
+
+set title "Star vs Galaxy Decision Boundary Prototype"
+set xlabel "Feature 1: Redness"
+set ylabel "Feature 2: Fuzziness"
+set grid
+
+f(x) = (1.3400) * x + (4.3431)
+
+plot "stars.dat" with points pt 7 ps 1 title "Stars", \
+     "galaxies.dat" with points pt 7 ps 1 title "Galaxies", \
+     "test_point.dat" with points pt 7 ps 1 title "test point", \
+     f(x) with lines lw 2 title "Boundary Line"
