@@ -1,2 +1,2 @@
 # stellar-boundary-prototype
-A foundational machine learning prototype calculating and visualizing mathematical decision boundaries for celestial classification, built as the core engine for upcoming SDSS data analysis.
+This repository serves as a proof-of-concept computational physics sandbox. It trains a logistic regression model to classify synthetic celestial objects (stars vs. galaxies) based on 2D feature data. Rather than treating the algorithm as a black box, this prototype extracts the raw matrix weights, derives the exact boundary equation, and exports the data for independent visual verification in GNUPLOT.
